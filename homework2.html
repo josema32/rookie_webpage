@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>HTML Homework 2</title>
+		<style type="text/css">
+			#main_content
+			{
+				border: 1px solid red;
+				width: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align="center">Three New Tags</h1>
+		<br/>
+		<h1><b>< caption > Caption Tag < /caption ></b></h1>
+		<p>
+		The Caption tag allows the developer to assign a title to a table.
+		<p/>
+		<p><b>Directions</b></p>
+		<ol>
+			<li>Open a new line under the table opening tag.</li>
+			<li>Type caption opening and closing tags.</li>
+			<li>Between the tags type the desired table name.</li>
+		</ol>
+		<table border="1">
+		<caption>Class Table</caption>
+			<tr>
+				<td>Class1</td><td>Class2</td>
+			</tr>
+		</table>
+		<p><b>The code that produced the output above looks like this:</b></p>
+		<p>< table border="1"><br/>< caption >Class Table< /caption ><br/>< tr><br/>
+		   < td >Class1< /td >< td >Class2< /td ><br/>
+		   < /tr ><br/>< /table >
+		</p>
+		<p>I found this tag at <a href="https://webdesignfromscratch.com/html-css/html-tags/" target="_blank">webdesignfromscratch.com</a></p>
+		<hr>
+		<h1><b>< div > Div Tag < /div ></b></h1>
+		<p>Division of Page Content. Specifies a logical division within a document.<br/> 
+		   Use it to separate or identify chunks of content that are not otherwise distinguished naturally using other tags.
+		<p/>
+		<p><b>Directions</b></p>
+		<ol>
+			<li>Within a paragraph type opening a closing div tags between the text you wish to highlight.</li>
+			<li>Once the tags contain the desired text, CSS attributes can be used to further visualize that section.</li>
+			<li>Whole paragraphs can be contain within this tag.</li>
+		</ol>
+		<p>This text is not enclosed into < div > tags.</p>
+		<div id=main_content>This text has been enclosed into < div > tags.</div>
+		
+		<p><b>The code that produced the output above looks like this:</b></p>
+		<p><b>Type this CSS code into your head section...</b><br/>
+		<br/>
+		< style type="text/css" ><br/>
+			#main_content<br/>
+			{<br/>
+				border: 1px solid red;<br/>
+				width: 300px;<br/>
+			}<br/>
+		< /style ><br/>
+		<br/>
+		<b>This is how the tags should look like in your body...</b><br/>
+		<br/>
+		< p >This text is not enclosed into < div > tags.< /p ><br/>
+		< div id=main_content>This text has been enclosed into < div > tags.< /div ><br/>
+		</p>
+		<p>I found this tag at <a href="http://www.simplehtmlguide.com" target="_blank">simplehtmlguide.com</a></p>
+		<hr>
+		<h1><b>< marquee > Marquee Tag < /marquee ></b></h1>
+		<p>Marquee is used to scroll text across the screen.</p>
+		<p><b>Directions</b></p>
+		<ol>
+			<li>Type the marquee opening and closing tags within a desired location in the body.</li>
+			<li>Type or paste the text to be scrolled between the tags.</li>
+		</ol>
+		<p>The following words are placed between a marquee tag:</p>
+		<marquee>HELLO WORLD!</marquee>
+		
+		<p><b>The code that produced the output above looks like this:</b></p>
+		<p>< p >The following words are placed between a marquee tag:< /p ><br/>
+		   < marquee >HELLO WORLD!< /marquee >
+		</p>
+		<p>I found this tag at <a href="http://www.tagindex.net" target="_blank">tagindex.net</a></p>
+	</body>
+</html>
